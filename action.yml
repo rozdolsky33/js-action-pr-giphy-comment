@@ -11,6 +11,6 @@ runs:
   using: 'node21'
   main: 'dist/index.js'
 
-  branding:
-    icon: 'award'
-    color: 'green'
+branding:
+  icon: 'award'
+  color: 'green'
