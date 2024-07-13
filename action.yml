@@ -1,4 +1,4 @@
-name: 'Giphy for comment'
+name: 'Arwest inc Giphy for comment'
 description: 'Add a Giphy GIF comment to new pull request'
 inputs:
   github-token:
@@ -10,3 +10,7 @@ inputs:
 runs:
   using: 'node21'
   main: 'dist/index.js'
+
+  branding:
+    icon: 'award'
+    color: 'green'
